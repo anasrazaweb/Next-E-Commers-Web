@@ -25,7 +25,7 @@ const Arival = () => {
     return (
         <div className='md:px-20 px-5 my-16'>
             <TopRowpath para={"new Arival"} />
-            <RowHeading heading={"New Arival"} />
+            <RowHeading heading={"New Arivals"} />
             <div className='flex justify-around flex-wrap mt-10'>
                 {/* <ArivalCard />
                 <ArivalCard />
