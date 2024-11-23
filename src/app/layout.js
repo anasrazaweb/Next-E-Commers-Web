@@ -1,10 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Components/Navabr/Navbar";
-import Page from "../app/footer/page"
 import { AddCardContextProvider } from "@/context/ADDTOCARD/AddCardContext";
-// import { AddCardContextProvider } from "@/context/ADDTOCARD/AddCardContext";
-
+import Footer from "../app/footer/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,9 +18,8 @@ export default function RootLayout({ children }) {
         <AddCardContextProvider>
           <Navbar />
           {children}
-          <Page />
+          <Footer />
         </AddCardContextProvider>
-
       </body>
     </html>
   );
