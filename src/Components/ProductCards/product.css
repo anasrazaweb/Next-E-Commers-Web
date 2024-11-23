@@ -1,0 +1,28 @@
+.icons {
+    opacity: 0;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.cardbtn {
+    opacity: 0;
+
+}
+
+.card:hover .icons {
+    opacity: 1;
+}
+
+.card:hover .cardbtn {
+    opacity: 1;
+}
+
+
+.svg-image:hover svg {
+    fill: white;
+}
+.scroll::-webkit-scrollbar{
+    width: 1px;
+}
